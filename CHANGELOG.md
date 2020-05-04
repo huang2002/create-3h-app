@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Fix `.gitignore`
+
 ## 0.1.2
 
 - Fix help info
