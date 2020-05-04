@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Fix help info
+
 ## 0.1.1
 
 - Fix initial style file
