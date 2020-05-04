@@ -150,7 +150,7 @@ program
          */
         await fsPromises.writeFile('.gitignore', [
             'node_modules',
-            'public',
+            '/public/index.js',
         ].join('\n') + '\n');
         await fsPromises.writeFile('package.json', JSON.stringify(
             {
