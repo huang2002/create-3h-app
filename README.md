@@ -10,7 +10,7 @@ This is a CLI tool that helps you quickly initialize a development environment f
 
 ```txt
 $ create-3h-app --help
-A front-end app initializer.
+A simple app initializer.
 
 Usage:
   create-3h-app [options]
