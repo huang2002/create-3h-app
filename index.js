@@ -168,13 +168,13 @@ program
                     || `${data.author}/${name}`,
                 keywords: args.getOption('--keywords'),
                 devDependencies: {
-                    '@babel/core': '^7.9.0',
-                    '@babel/preset-env': '^7.9.0',
+                    '@babel/core': '^7.10.0',
+                    '@babel/preset-env': '^7.10.0',
                     herver: '^0.4.0',
-                    rollup: '^2.2.0',
+                    rollup: '^2.11.0',
                     'rollup-plugin-babel': '^4.3.0',
-                    'rollup-plugin-terser': '^5.3.0',
-                    terser: '^4.6.0',
+                    'rollup-plugin-terser': '^6.1.0',
+                    terser: '^4.7.0',
                 }
             },
             null, // replacer
