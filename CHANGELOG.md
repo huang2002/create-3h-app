@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Update dev deps
+
 ## 0.1.3
 
 - Fix `.gitignore`
