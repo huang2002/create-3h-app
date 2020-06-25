@@ -68,6 +68,6 @@ Generally, you
 | `test`  | launch the dev server |
 | `build` | build your code       |
 
-The development server employs [`herver`](https://github.com/huang2002/herver) to serve your app for testing. It will serve your source code directly from `src`, so after you change something in your source code, you can just refresh the page to test it. Additionally, any other resource files are supposed to be put in the `public` folder, and they will be served properly.
+The development server employs [`herver`](https://github.com/huang2002/herver) to serve your app for testing. It will serve your source code directly from `src`, so after you change something in your source code, you can just refresh the page to test it. Other resource files are supposed to be put in the `public` folder, and they will be served properly. Additionally, files of local libs inside `/node_modules` can be loaded by using URLs starting with `/node_modules`.
 
 After building your code by executing `npm run build`, a bundled JavaScript file(`index.js`) will be placed in the `public` folder, which will be transformed by `babel`, bundled by `rollup` and minified by `terser`. Finally, you will get your app in the `public` folder.

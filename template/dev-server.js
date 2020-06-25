@@ -1,11 +1,16 @@
-const { App, createStaticHandler } = require('herver'),
-    { join } = require('path');
+const { App, Router, createStaticHandler } = require('herver');
+const { join } = require('path');
+const { existsSync } = require('fs');
 
 const PORT = 8080;
 
 const app = new App();
+const router = new Router();
 
-app.use(createStaticHandler(join(__dirname, 'src')))
+router.get(/^\/node_modules/, createStaticHandler(__dirname));
+
+app.use(router.handler)
+    .use(createStaticHandler(join(__dirname, 'src')))
     .use(createStaticHandler(join(__dirname, 'test')))
     .use(createStaticHandler(join(__dirname, 'public')));
 
