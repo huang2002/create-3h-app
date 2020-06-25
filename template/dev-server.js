@@ -1,6 +1,5 @@
 const { App, Router, createStaticHandler } = require('herver');
 const { join } = require('path');
-const { existsSync } = require('fs');
 
 const PORT = 8080;
 
