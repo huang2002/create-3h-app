@@ -170,7 +170,7 @@ program
                 devDependencies: {
                     '@babel/core': '^7.10.0',
                     '@babel/preset-env': '^7.10.0',
-                    herver: '^0.4.0',
+                    herver: '^0.6.0',
                     rollup: '^2.11.0',
                     'rollup-plugin-babel': '^4.3.0',
                     'rollup-plugin-terser': '^6.1.0',
