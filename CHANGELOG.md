@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Fix code of dev server
+
 ## 0.2.0
 
 - Add local lib support
