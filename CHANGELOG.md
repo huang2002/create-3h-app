@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+- Update deps
+
 ## 0.2.1
 
 - Fix code of dev server
