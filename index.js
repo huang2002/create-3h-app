@@ -171,10 +171,10 @@ program
                     '@babel/core': '^7.10.0',
                     '@babel/preset-env': '^7.10.0',
                     herver: '^0.6.0',
-                    rollup: '^2.11.0',
-                    'rollup-plugin-babel': '^4.3.0',
+                    rollup: '^2.26.0',
+                    '@rollup/plugin-babel': '^5.2.0',
                     'rollup-plugin-terser': '^6.1.0',
-                    terser: '^4.7.0',
+                    terser: '^5.2.0',
                 }
             },
             null, // replacer
