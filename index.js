@@ -173,7 +173,7 @@ program
                     herver: '^0.6.0',
                     rollup: '^2.26.0',
                     '@rollup/plugin-babel': '^5.2.0',
-                    'rollup-plugin-terser': '^6.1.0',
+                    'rollup-plugin-terser': '^7.0.0',
                     terser: '^5.2.0',
                 }
             },
