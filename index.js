@@ -175,10 +175,10 @@ program
                     '@rollup/plugin-babel': '^5.2.0',
                     'rollup-plugin-terser': '^7.0.0',
                     terser: '^5.2.0',
-                }
+                },
             },
             null, // replacer
-            2 // indent
+            2, // indent
         ));
 
         if (options.has('--no-install')) {

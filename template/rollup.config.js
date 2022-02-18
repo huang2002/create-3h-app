@@ -8,19 +8,19 @@ export default {
             babelHelpers: 'bundled',
             presets: [
                 ['@babel/preset-env', {
-                    loose: true
-                }]
-            ]
+                    loose: true,
+                }],
+            ],
         }),
         terser({
             compress: {
                 unsafe: true
             },
-            mangle: true
-        })
+            mangle: true,
+        }),
     ],
     output: {
         format: 'iife',
-        file: './public/index.js'
-    }
+        file: './public/index.js',
+    },
 };
