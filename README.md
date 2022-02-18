@@ -84,3 +84,7 @@ a bundled JavaScript file(`index.js`) will be placed
 in the `public` folder, which will be transformed by `babel`,
 bundled by `rollup` and minified by `terser`.
 Finally, you should get your app in the `public` folder.
+
+## License
+
+[MIT License](./LICENSE).
